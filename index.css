@@ -1,0 +1,87 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+
+.dp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    width: 400px;
+    height: 650px;
+    padding: 30px 30px 30px 30px;
+    border: 1px solid hsl(0, 0%, 12%);
+    border-radius: 30px;
+    margin-top: 20px;
+
+}
+
+.a1 {
+    color: white;
+    display: block;
+    background-color: hsl(0, 0%, 20%);
+    border: 1px solid hsl(0, 0%, 20%);
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 15px 80px 15px 80px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+
+img {
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+
+}
+
+.a1:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+
+}
+
+p {
+    position: relative;
+    color: hsl(75, 94%, 57%);
+    font-family: Inter;
+    font-size: 15px;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+.dp .img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 100px;
+        height: 100pxو
+    }
+}
+
+.da {
+    width: 90%;
+}
